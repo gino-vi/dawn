@@ -42,8 +42,8 @@ const CONFIG = new Config({
           {
             name: 'twitch',
             url: 'https://twitch.tv',
-            icon: 'leaf',
-            icon_color: '#64876d'
+            icon: 'brand-twitch',
+            icon_color: '#d3869b'
           },
           {
             name: '/lit/',
