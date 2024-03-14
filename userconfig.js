@@ -51,6 +51,11 @@ const CONFIG = new Config({
             icon_color: '#1DA1F2'
           },
           {
+            url: 'https://amazon.com',
+            icon: 'brand-amazon',
+            icon_color: '#ff9900'
+          },
+          {
             url: 'https://rateyourmusic.com/',
             icon: 'photo-circle',
             icon_color: '#67A7CF'
