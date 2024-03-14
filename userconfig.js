@@ -45,13 +45,13 @@ const CONFIG = new Config({
             name: 'twitch',
             url: 'https://twitch.tv',
             icon: 'brand-twitch',
-            icon_color: '#d3869b'
+            icon_color: '#6441a5'
           },
           {
             name: 'twitter',
-            url: 'https://twitch.tv',
-            icon: 'brand-twitch',
-            icon_color: '#d3869b'
+            url: 'https://twitter.com',
+            icon: 'brand-twitter',
+            icon_color: '#1DA1F2'
           },
           {
             name: 'rateyourmusic',
@@ -62,22 +62,25 @@ const CONFIG = new Config({
             name: 'discogs',
             url: 'https://www.discogs.com/',
             icon: 'disc',
-            icon_color: '#8b647b'
+            icon_color: '#000000'
           },
           {
             name: 'reddit',
             url: 'https://reddit.com',
-            icon: 'brand-reddit'
+            icon: 'brand-reddit',
+            icon_color: '	#FF5700'
           },
           {
             name: 'hackernews',
             url: 'https://news.ycombinator.com/',
-            icon: 'brand-ycombinator'
+            icon: 'brand-ycombinator',
+            icon_color: '#ff4000'
           },
           {
             name: 'letterboxd',
             url: 'https://letterboxd.com/',
-            icon: 'brand-letterboxd'
+            icon: 'brand-letterboxd',
+            icon_color: '#556678'
           }
         ]
       },
@@ -127,12 +130,14 @@ const CONFIG = new Config({
           {
             name: 'Wolfram|Alpha',
             url: 'https://www.wolframalpha.com/',
-            icon: 'square-root-2'
+            icon: 'square-root-2',
+            icon_color: '#F27405'
           },
           {
             name: 'github',
             url: 'https://github.com/',
-            icon: 'brand-github'
+            icon: 'brand-github',
+            icon_color: '#f5f5f5'
           }
         ]
       }
