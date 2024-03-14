@@ -337,5 +337,72 @@ const CONFIG = new Config({
           ]
         }
       ]
+    },
+    {
+      name: 'design',
+      background_url: 'src/img/banners/bg-3.gif',
+      categories: [
+        {
+          name: 'subreddits',
+          links: [
+            {
+              name: 'r/firefoxcss',
+              url: 'https://www.reddit.com/r/firefoxcss/'
+            },
+            {
+              name: 'r/desktops',
+              url: 'https://www.reddit.com/r/desktops/'
+            },
+            {
+              name: 'r/mechkbds/',
+              url: 'https://www.reddit.com/r/MechanicalKeyboards/',
+              icon: 'keyboard',
+              icon_color: '#a57685'
+            },
+            {
+              name: 'r/battlestations',
+              url: 'https://www.reddit.com/r/battlestations/'
+            }
+          ]
+        },
+        {
+          name: 'resources',
+          links: [
+            {
+              name: 'fasterthanli',
+              url: 'https://fasterthanli.me/articles',
+              icon: 'anchor'
+            },
+            {
+              name: 'colorhunt',
+              url: 'https://colorhunt.co/',
+              icon: 'color-picker',
+              icon_color: '#ff80c0'
+            },
+            {
+              name: 'terminalsexy',
+              url: 'https://terminal.sexy/',
+              icon: 'terminal',
+              icon_color: '#ff8040'
+            }
+          ]
+        },
+        {
+          name: 'misc',
+          links: [
+            {
+              name: 'post office',
+              url: 'http://afternoon.dynu.com/letterbox.html',
+              icon: 'mailbox'
+            },
+            {
+              name: 'rust docs',
+              url: 'https://doc.rust-lang.org/book/',
+              icon: 'notebook',
+              icon_color: '#977a3a'
+            }
+          ]
+        }
+      ]
     }]
 });
