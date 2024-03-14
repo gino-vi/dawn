@@ -57,22 +57,30 @@ const CONFIG = new Config({
             icon_color: '#8b647b'
           },
           {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
+            name: 'reddit',
+            url: 'https://reddit.com',
             icon: 'camera'
           }
         ]
       },
       {
-        name: 'Comfy',
+        name: 'trackers',
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: 'redacted',
+            url: 'https://redacted.ch/'
           },
           {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
+            name: 'PTP',
+            url: 'https://passthepopcorn.me/index.php'
+          },
+          {
+            name: 'JPS',
+            url: 'https://jpopsuki.eu/'
+          },
+          {
+            name: 'GG',
+            url: 'https://gazellegames.net/'
           }
         ]
       },
