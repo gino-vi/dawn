@@ -74,7 +74,12 @@ const CONFIG = new Config({
             url: 'https://letterboxd.com/',
             icon: 'brand-letterboxd',
             icon_color: '#556678'
-          }
+          },
+          {
+            url: 'https://cohost.org/',
+            icon: 'brand-cohost',
+            icon_color: '#556678'
+          },
         ]
       },
       {
@@ -223,7 +228,7 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'personal',
+      name: 'myself',
       background_url: 'src/img/banners/bg-2.gif',
       categories: [
         {
@@ -236,14 +241,15 @@ const CONFIG = new Config({
               icon_color: '#c57750'
             },
             {
-              name: 'Docs',
+              name: 'docs',
               url: 'https://docs.google.com/document/u/0/',
               icon: 'file-stack',
               icon_color: '#996767'
             },
             {
-              url: 'https://r-a-d.io/',
-              icon: 'radio'
+              name: 'sheets', 
+              url: 'https://docs.google.com/spreadsheets/u/0/',
+              icon: 'file-spreadsheet'
             },
           ]
         },
