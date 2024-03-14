@@ -148,6 +148,10 @@ const CONFIG = new Config({
             icon: 'vinyl',
             icon_color: '#c0c0c0'
           },
+          {
+            name: 'dev.to',
+            url: 'https://dev.to/',
+          },
         ]
       }
       ]
@@ -264,7 +268,7 @@ const CONFIG = new Config({
             {
               name: 'linkedin',
               url: 'https://www.linkedin.com/feed/',
-              icon: 'IconBrandLinkedin',
+              icon: 'brand-linkedin',
               icon_color: '#0a66c2'
             },
           ]
