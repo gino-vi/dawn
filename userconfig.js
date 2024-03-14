@@ -340,7 +340,7 @@ const CONFIG = new Config({
     },
     {
       name: 'design',
-      background_url: 'src/img/banners/bg-3.gif',
+      background_url: 'src/img/banners/cbg-3.gif',
       categories: [
         {
           name: 'subreddits',
@@ -352,6 +352,10 @@ const CONFIG = new Config({
             {
               name: 'r/desktops',
               url: 'https://www.reddit.com/r/desktops/'
+            },
+            {
+              name: 'r/unixporn',
+              url: 'https://www.reddit.com/r/unixporn/'
             },
             {
               name: 'r/mechkbds/',
