@@ -6,7 +6,7 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Northridge',
     scale: 'C'
   },
   clock: {
@@ -29,6 +29,81 @@ const CONFIG = new Config({
   disabled: [],
   openLastVisitedTab: false,
   tabs: [
+    {
+      name: 'general',
+      background_url: 'src/img/banners/cbg-11.gif',
+      categories: [{
+        name: 'fun',
+        links: [
+          {
+            url: 'https://www.last.fm/user/noctambulist-',
+            name: 'last.fm'
+          },
+          {
+            name: 'twitch',
+            url: 'https://twitch.tv',
+            icon: 'leaf',
+            icon_color: '#64876d'
+          },
+          {
+            name: '/lit/',
+            url: 'https://4chan.org/lit/',
+            icon: 'book'
+          },
+          {
+            name: '/v/',
+            url: 'https://4chan.org/v/',
+            icon: 'device-gamepad',
+            icon_color: '#8b647b'
+          },
+          {
+            name: '/p/',
+            url: 'https://4chan.org/p/',
+            icon: 'camera'
+          }
+        ]
+      },
+      {
+        name: 'Comfy',
+        links: [
+          {
+            name: '/lounge/',
+            url: 'https://sushigirl.us/lounge/catalog.html'
+          },
+          {
+            name: '/comfy/',
+            url: 'https://anon.cafe/comfy/catalog.html'
+          }
+        ]
+      },
+      {
+        name: 'Technology',
+        links: [
+          {
+            name: '/g/',
+            url: 'https://4chan.org/g/',
+          },
+          {
+            name: '/Δ/',
+            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+          },
+          {
+            name: '/λ/',
+            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
+          },
+          {
+            name: '/sec/',
+            url: 'https://www.lainchan.org/sec/catalog.html'
+          },
+          {
+            name: '/prog/',
+            url: 'https://boards.420chan.org/prog/',
+            icon: 'code'
+          }
+        ]
+      }
+      ]
+    },
     {
       name: 'boards',
       background_url: 'src/img/banners/bg-1.gif',
