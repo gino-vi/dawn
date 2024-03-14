@@ -160,6 +160,10 @@ const CONFIG = new Config({
             name: 'Claude',
             url: 'https://claude.ai/chats/',
           },
+          {
+            name: 'liquipedia',
+            url: 'https://liquipedia.net/',
+          },
         ]
       }
       ]
