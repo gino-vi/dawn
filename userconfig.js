@@ -37,7 +37,9 @@ const CONFIG = new Config({
         links: [
           {
             url: 'https://www.last.fm/user/noctambulist-',
-            name: 'last.fm'
+            name: 'last.fm',
+            icon: 'brand-lastfm',
+            icon_color: '#c3000d'
           },
           {
             name: 'twitch',
@@ -46,20 +48,25 @@ const CONFIG = new Config({
             icon_color: '#d3869b'
           },
           {
-            name: 'RYM',
+            name: 'rateyourmusic',
             url: 'https://rateyourmusic.com/~Mekia',
-            icon: 'book'
+            icon: 'photo-circle'
           },
           {
             name: 'discogs',
             url: 'https://www.discogs.com/',
-            icon: 'device-gamepad',
+            icon: 'disc',
             icon_color: '#8b647b'
           },
           {
             name: 'reddit',
             url: 'https://reddit.com',
-            icon: 'camera'
+            icon: 'brand-reddit'
+          },
+          {
+            name: 'hackernews',
+            url: 'https://news.ycombinator.com/',
+            icon: 'brand-ycombinator'
           }
         ]
       },
@@ -68,19 +75,23 @@ const CONFIG = new Config({
         links: [
           {
             name: 'redacted',
-            url: 'https://redacted.ch/'
+            url: 'https://redacted.ch/',
+            icon: 'headphones'
           },
           {
             name: 'PTP',
-            url: 'https://passthepopcorn.me/index.php'
+            url: 'https://passthepopcorn.me/index.php',
+            icon: 'movie'
           },
           {
             name: 'JPS',
             url: 'https://jpopsuki.eu/'
+            icon: 'torii'
           },
           {
             name: 'GG',
-            url: 'https://gazellegames.net/'
+            url: 'https://gazellegames.net/',
+            icon: 'device-gamepad-2'
           }
         ]
       },
