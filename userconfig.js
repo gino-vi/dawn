@@ -48,8 +48,14 @@ const CONFIG = new Config({
             icon_color: '#d3869b'
           },
           {
+            name: 'twitter',
+            url: 'https://twitch.tv',
+            icon: 'brand-twitch',
+            icon_color: '#d3869b'
+          },
+          {
             name: 'rateyourmusic',
-            url: 'https://rateyourmusic.com/~Mekia',
+            url: 'https://rateyourmusic.com/',
             icon: 'photo-circle'
           },
           {
@@ -67,6 +73,11 @@ const CONFIG = new Config({
             name: 'hackernews',
             url: 'https://news.ycombinator.com/',
             icon: 'brand-ycombinator'
+          },
+          {
+            name: 'letterboxd',
+            url: 'https://letterboxd.com/',
+            icon: 'brand-letterboxd'
           }
         ]
       },
@@ -74,7 +85,7 @@ const CONFIG = new Config({
         name: 'trackers',
         links: [
           {
-            name: 'redacted',
+            name: 'RED',
             url: 'https://redacted.ch/',
             icon: 'headphones'
           },
@@ -96,28 +107,32 @@ const CONFIG = new Config({
         ]
       },
       {
-        name: 'Technology',
+        name: 'Various',
         links: [
           {
-            name: '/g/',
-            url: 'https://4chan.org/g/',
+            name: 'goodreads',
+            url: '',
+            icon: 'books'
           },
           {
-            name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+            name: 'D2PT',
+            url: 'https://dota2protracker.com/',
+            icon: 'square-rounded-percentage'
           },
           {
-            name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
+            name: 'poe.ninja',
+            url: 'https://poe.ninja/',
+            icon: 'timeline'
           },
           {
-            name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
+            name: 'Wolfram|Alpha',
+            url: 'https://www.wolframalpha.com/',
+            icon: 'square-root-2'
           },
           {
-            name: '/prog/',
-            url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
+            name: 'github',
+            url: 'https://github.com/',
+            icon: 'brand-github'
           }
         ]
       }
