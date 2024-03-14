@@ -10,7 +10,7 @@ const CONFIG = new Config({
     scale: 'C'
   },
   clock: {
-    format: 'h:i p',
+    format: 'do B Y - h:i',
     iconColor: '#ff7b95'
   },
   search: {
@@ -52,7 +52,8 @@ const CONFIG = new Config({
           },
           {
             url: 'https://rateyourmusic.com/',
-            icon: 'photo-circle'
+            icon: 'photo-circle',
+            icon_color: '#67A7CF'
           },
           {
             url: 'https://www.discogs.com/',
