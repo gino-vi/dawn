@@ -56,6 +56,11 @@ const CONFIG = new Config({
             icon_color: '#ff9900'
           },
           {
+            url: 'https://reddit.com',
+            icon: 'brand-reddit',
+            icon_color: '	#FF5700'
+          },
+          {
             url: 'https://rateyourmusic.com/',
             icon: 'photo-circle',
             icon_color: '#67A7CF'
@@ -66,9 +71,9 @@ const CONFIG = new Config({
             icon_color: '#000000'
           },
           {
-            url: 'https://reddit.com',
-            icon: 'brand-reddit',
-            icon_color: '	#FF5700'
+            url: 'https://github.com/',
+            icon: 'brand-github',
+            icon_color: '#f5f5f5'
           },
           {
             url: 'https://news.ycombinator.com/',
@@ -154,12 +159,6 @@ const CONFIG = new Config({
             url: 'https://www.wolframalpha.com/',
             icon: 'square-root-2',
             icon_color: '#F27405'
-          },
-          {
-            name: 'github',
-            url: 'https://github.com/',
-            icon: 'brand-github',
-            icon_color: '#f5f5f5'
           },
           {
             name: 'openscrob',
