@@ -390,7 +390,11 @@ const CONFIG = new Config({
               url: 'https://terminal.sexy/',
               icon: 'terminal',
               icon_color: '#ff8040'
-            }
+            },
+            {
+              name: 'dev resources',
+              url: 'https://devresourc.es/',
+            },
           ]
         },
         {
