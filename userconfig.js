@@ -46,13 +46,13 @@ const CONFIG = new Config({
             icon_color: '#d3869b'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
+            name: 'RYM',
+            url: 'https://rateyourmusic.com/~Mekia',
             icon: 'book'
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
+            name: 'discogs',
+            url: 'https://www.discogs.com/',
             icon: 'device-gamepad',
             icon_color: '#8b647b'
           },
