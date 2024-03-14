@@ -37,47 +37,39 @@ const CONFIG = new Config({
         links: [
           {
             url: 'https://www.last.fm/user/noctambulist-',
-            name: 'last.fm',
             icon: 'brand-lastfm',
             icon_color: '#c3000d'
           },
           {
-            name: 'twitch',
             url: 'https://twitch.tv',
             icon: 'brand-twitch',
             icon_color: '#6441a5'
           },
           {
-            name: 'twitter',
             url: 'https://twitter.com',
             icon: 'brand-twitter',
             icon_color: '#1DA1F2'
           },
           {
-            name: 'rateyourmusic',
             url: 'https://rateyourmusic.com/',
             icon: 'photo-circle'
           },
           {
-            name: 'discogs',
             url: 'https://www.discogs.com/',
             icon: 'disc',
             icon_color: '#000000'
           },
           {
-            name: 'reddit',
             url: 'https://reddit.com',
             icon: 'brand-reddit',
             icon_color: '	#FF5700'
           },
           {
-            name: 'hackernews',
             url: 'https://news.ycombinator.com/',
             icon: 'brand-ycombinator',
             icon_color: '#ff4000'
           },
           {
-            name: 'letterboxd',
             url: 'https://letterboxd.com/',
             icon: 'brand-letterboxd',
             icon_color: '#556678'
@@ -114,7 +106,7 @@ const CONFIG = new Config({
         links: [
           {
             name: 'goodreads',
-            url: '',
+            url: 'https://www.goodreads.com/',
             icon: 'books'
           },
           {
