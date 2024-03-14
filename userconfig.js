@@ -149,8 +149,8 @@ const CONFIG = new Config({
             icon_color: '#c0c0c0'
           },
           {
-            name: 'dev.to',
-            url: 'https://dev.to/',
+            name: 'Claude',
+            url: 'https://claude.ai/chats/',
           },
         ]
       }
@@ -200,6 +200,10 @@ const CONFIG = new Config({
           {
             name: '/comfy/',
             url: 'https://anon.cafe/comfy/catalog.html'
+          },
+          {
+            name: 'lo-fi',
+            url: 'https://lofigenerator.com/'
           }
         ]
       },
@@ -329,10 +333,8 @@ const CONFIG = new Config({
               icon: 'mailbox'
             },
             {
-              name: 'rust docs',
-              url: 'https://doc.rust-lang.org/book/',
-              icon: 'notebook',
-              icon_color: '#977a3a'
+              name: 'algorithms',
+              url: 'https://the-algorithms.com/',
             }
           ]
         }
