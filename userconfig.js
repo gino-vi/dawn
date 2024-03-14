@@ -106,6 +106,11 @@ const CONFIG = new Config({
         name: 'Various',
         links: [
           {
+            name: 'anilist',
+            url: 'https://www.anilist.co',
+            icon: 'list'
+          },
+          {
             name: 'goodreads',
             url: 'https://www.goodreads.com/',
             icon: 'books'
