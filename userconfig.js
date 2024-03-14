@@ -113,6 +113,12 @@ const CONFIG = new Config({
             url: 'https://gazellegames.net/',
             icon: 'device-gamepad-2',
             icon_color: '#378CE7'
+          },
+          {
+            name: 'AB',
+            url: 'https://animebytes.tv/',
+            icon: 'alphabet-latin',
+            icon_color: '#ad0c75'
           }
         ]
       },
@@ -144,7 +150,7 @@ const CONFIG = new Config({
             icon_color: '#FFE4C9'
           },
           {
-            name: 'Wolfram|Alpha',
+            name: 'W|A',
             url: 'https://www.wolframalpha.com/',
             icon: 'square-root-2',
             icon_color: '#F27405'
@@ -156,7 +162,7 @@ const CONFIG = new Config({
             icon_color: '#f5f5f5'
           },
           {
-            name: 'openscrobbler',
+            name: 'openscrob',
             url: 'https://openscrobbler.com/',
             icon: 'vinyl',
             icon_color: '#c0c0c0'
@@ -391,11 +397,6 @@ const CONFIG = new Config({
         {
           name: 'resources',
           links: [
-            {
-              name: 'fasterthanli',
-              url: 'https://fasterthanli.me/articles',
-              icon: 'anchor'
-            },
             {
               name: 'colorhunt',
               url: 'https://colorhunt.co/',
