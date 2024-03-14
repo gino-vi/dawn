@@ -185,9 +185,10 @@ class Tabs extends Component {
       .categories .link-info:not(:last-child) { margin-right: .5em; }
 
       .categories ul .links a:hover {
-        transform: translate(0, 4px);
-        box-shadow: 0 0 rgba(0, 0, 0, 0.25), 0 0 0 rgba(0, 0, 0, .5), 0 -0px 5px rgba(0, 0, 0, .1);
-        color: var(--flavour);
+          transform: translate(0, 4px);
+          box-shadow: 0 0 rgba(0, 0, 0, 0.25), 0 0 0 rgba(0, 0, 0, .5), 0 -0px 5px rgba(0, 0, 0, .1);
+          color: var(--flavour);
+      }
 
       .categories ul::after {
           content: attr(class);
