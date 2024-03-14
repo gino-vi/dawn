@@ -30,7 +30,7 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
-      name: 'general',
+      name: 'social',
       background_url: 'src/img/banners/cbg-11.gif',
       categories: [{
         name: 'fun',
@@ -85,7 +85,7 @@ const CONFIG = new Config({
           },
           {
             name: 'JPS',
-            url: 'https://jpopsuki.eu/'
+            url: 'https://jpopsuki.eu/',
             icon: 'torii'
           },
           {
