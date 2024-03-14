@@ -36,9 +36,14 @@ const CONFIG = new Config({
         name: 'fun',
         links: [
           {
-            url: 'https://www.last.fm/user/noctambulist-',
+            url: 'https://www.last.fm/user/noctambulist-/',
             icon: 'brand-lastfm',
             icon_color: '#c3000d'
+          },
+          {
+            url: 'https://www.youtube.com/',
+            icon: 'brand-youtube',
+            icon_color: '#FF0000'
           },
           {
             url: 'https://twitch.tv',
