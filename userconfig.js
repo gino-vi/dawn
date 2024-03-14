@@ -251,20 +251,22 @@ const CONFIG = new Config({
               url: 'https://docs.google.com/spreadsheets/u/0/',
               icon: 'file-spreadsheet'
             },
+            {
+              name: 'protonmail', 
+              url: 'https://mail.proton.me/u/0/inbox',
+              icon: 'circle-letter-p'
+            },
           ]
         },
         {
-          name: 'music boards',
+          name: 'footprint',
           links: [
             {
-              name: '/music/',
-              url: 'https://lainchan.org/music/',
-              icon: 'disc'
+              name: 'linkedin',
+              url: 'https://www.linkedin.com/feed/',
+              icon: 'IconBrandLinkedin',
+              icon_color: '#0a66c2'
             },
-            {
-              name: '/mu/',
-              url: 'https://boards.4channel.org/mu/',
-            }
           ]
         }
       ]
