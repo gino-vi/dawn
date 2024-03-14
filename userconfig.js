@@ -131,7 +131,13 @@ const CONFIG = new Config({
             url: 'https://github.com/',
             icon: 'brand-github',
             icon_color: '#f5f5f5'
-          }
+          },
+          {
+            name: 'openscrobbler',
+            url: 'https://openscrobbler.com/',
+            icon: 'vinyl',
+            icon_color: '#c0c0c0'
+          },
         ]
       }
       ]
