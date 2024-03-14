@@ -88,22 +88,26 @@ const CONFIG = new Config({
           {
             name: 'RED',
             url: 'https://redacted.ch/',
-            icon: 'headphones'
+            icon: 'headphones',
+            icon_color: '#31363F'
           },
           {
             name: 'PTP',
             url: 'https://passthepopcorn.me/index.php',
-            icon: 'movie'
+            icon: 'movie',
+            icon_color: '#FC819E'
           },
           {
             name: 'JPS',
             url: 'https://jpopsuki.eu/',
-            icon: 'torii'
+            icon: 'torii',
+            icon_color: '#DFF5FF'
           },
           {
             name: 'GG',
             url: 'https://gazellegames.net/',
-            icon: 'device-gamepad-2'
+            icon: 'device-gamepad-2',
+            icon_color: '#378CE7'
           }
         ]
       },
@@ -113,22 +117,26 @@ const CONFIG = new Config({
           {
             name: 'anilist',
             url: 'https://www.anilist.co',
-            icon: 'list'
+            icon: 'list',
+            icon_color: '#76ABAE'
           },
           {
             name: 'goodreads',
             url: 'https://www.goodreads.com/',
-            icon: 'books'
+            icon: 'books',
+            icon_color: '#B784B7'
           },
           {
             name: 'D2PT',
             url: 'https://dota2protracker.com/',
-            icon: 'square-rounded-percentage'
+            icon: 'square-rounded-percentage',
+            icon_color: '#FFF7F1'
           },
           {
             name: 'poe.ninja',
             url: 'https://poe.ninja/',
-            icon: 'timeline'
+            icon: 'timeline',
+            icon_color: '#FFE4C9'
           },
           {
             name: 'Wolfram|Alpha',
