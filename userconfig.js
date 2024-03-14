@@ -218,20 +218,22 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'music',
+      name: 'personal',
       background_url: 'src/img/banners/bg-2.gif',
       categories: [
         {
-          name: 'music services',
+          name: 'personal',
           links: [
             {
-              url: 'https://soundcloud.com/',
-              icon: 'brand-soundcloud',
+              name: 'gmail',
+              url: 'https://gmail.com',
+              icon: 'brand-gmail',
               icon_color: '#c57750'
             },
             {
-              url: 'https://youtu.be/',
-              icon: 'brand-youtube',
+              name: 'Docs',
+              url: 'https://docs.google.com/document/u/0/',
+              icon: 'file-stack',
               icon_color: '#996767'
             },
             {
