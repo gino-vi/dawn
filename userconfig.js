@@ -83,7 +83,7 @@ const CONFIG = new Config({
           {
             url: 'https://cohost.org/',
             icon: 'brand-cohost',
-            icon_color: '#556678'
+            icon_color: '#83254FFF'
           },
         ]
       },
