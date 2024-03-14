@@ -287,14 +287,6 @@ const CONFIG = new Config({
           name: 'subreddits',
           links: [
             {
-              name: 'r/startpages/',
-              url: 'https://www.reddit.com/r/startpages/'
-            },
-            {
-              name: 'r/unixporn',
-              url: 'https://www.reddit.com/r/unixporn/'
-            },
-            {
               name: 'r/mechkbds/',
               url: 'https://www.reddit.com/r/MechanicalKeyboards/',
               icon: 'keyboard',
@@ -367,8 +359,16 @@ const CONFIG = new Config({
             },
             {
               name: 'r/battlestations',
-              url: 'https://www.reddit.com/r/battlestations/'
-            }
+              url: 'https://www.reddit.com/r/battlestations/',
+              icon: 'desk',
+              icon_color: '#008080'
+            },
+            {
+              name: 'r/startpages/',
+              url: 'https://www.reddit.com/r/startpages/',
+              icon: 'browser',
+              icon_color: '#590080'
+            },
           ]
         },
         {
