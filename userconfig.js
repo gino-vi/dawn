@@ -144,7 +144,7 @@ const CONFIG = new Config({
           {
             name: 'goodreads',
             url: 'https://www.goodreads.com/',
-            icon: 'books',
+            icon: 'bookmarks',
             icon_color: '#B784B7'
           },
           {
