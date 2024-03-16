@@ -179,6 +179,12 @@ const CONFIG = new Config({
             name: 'liquipedia',
             url: 'https://liquipedia.net/',
           },
+          {
+            name: 'z-lib',
+            url: 'https://lib-nufgobmtfnla24qq7lmbumpn.booksc.eu/',
+            icon: 'books',
+            icon_color: '#6D2932'
+          },
         ]
       }
       ]
