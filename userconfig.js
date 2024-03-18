@@ -34,7 +34,7 @@ const default_config = new Config({
   openLastVisitedTab: true,
   tabs: [
     {
-      name: 'social',
+      name: 'stuff',
       background_url: 'src/img/banners/cbg-11.gif',
       categories: [{
         name: 'fun',
