@@ -1,4 +1,6 @@
-const CONFIG = new Config({
+let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
+
+const default_config = new Config({
   crypto: {
     coin: 'ETH',
     currency: 'USD',
@@ -19,7 +21,8 @@ const CONFIG = new Config({
       i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
-      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
+      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia'],
+      p: ['https://www.poewiki.net/index.php?search=', 'Path of Exile']
     }
   },
   keybindings: {
@@ -27,7 +30,8 @@ const CONFIG = new Config({
     "s": 'search-bar'
   },
   disabled: [],
-  openLastVisitedTab: false,
+  localIcons: true,
+  openLastVisitedTab: true,
   tabs: [
     {
       name: 'social',
@@ -444,3 +448,15 @@ const CONFIG = new Config({
       ]
     }]
 });
+
+const CONFIG = new Config(saved_config ?? default_config);
+// const CONFIG = new Config(default_config);
+
+(function() {
+  var css = document.createElement('link');
+  css.href = 'src/css/tabler-icons.min.css';
+  css.rel = 'stylesheet';
+  css.type = 'text/css';
+  if (!CONFIG.config.localIcons)
+    document.getElementsByTagName('head')[0].appendChild(css);
+})();
