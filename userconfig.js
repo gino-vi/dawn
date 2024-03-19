@@ -35,7 +35,7 @@ const default_config = new Config({
   tabs: [
     {
       name: 'stuff',
-      background_url: 'src/img/banners/cbg-11.gif',
+      background_url: 'src/img/banners/cbg-8.gif',
       categories: [{
         name: 'fun',
         links: [
