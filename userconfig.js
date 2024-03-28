@@ -40,7 +40,7 @@ const default_config = new Config({
         name: 'fun',
         links: [
           {
-            url: 'https://www.last.fm/user/noctambulist-/',
+            url: 'https://www.last.fm/user/noctambuIist/',
             icon: 'brand-lastfm',
             icon_color: '#c3000d'
           },
@@ -50,12 +50,12 @@ const default_config = new Config({
             icon_color: '#FF0000'
           },
           {
-            url: 'https://twitch.tv',
+            url: 'https://twitch.tv/',
             icon: 'brand-twitch',
             icon_color: '#6441a5'
           },
           {
-            url: 'https://twitter.com',
+            url: 'https://twitter.com/',
             icon: 'brand-twitter',
             icon_color: '#1DA1F2'
           },
